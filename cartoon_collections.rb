@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
  array.collect{|item| 
-   return "#{item.upcase}!"
+   puts "#{item.upcase}!"
  }
 end
 
